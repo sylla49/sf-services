@@ -1,0 +1,176 @@
+
+* {
+	margin: 0%; margin-left: 0px; margin-right: 0px;
+	padding: 0%; padding-left: 0px; padding-right: 0px;
+}
+
+
+
+
+@keyframes bckg {
+	from { background-color: black; }
+	to { background-color: lightgray; }
+}
+#titre .titr-li:hover > a {
+	color: white;
+}
+#titre .titr-li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+
+#imgs {
+
+	margin-left: 1.5%;
+	margin-left: 1%;
+}
+.dv-ul0 {
+	float: center;
+}
+.ul0-li {
+	overflow: hidden;
+	margin-left: -80%;
+}
+.ul0-li a{
+	font-size: 20px;
+	text-decoration: none;
+}
+.ul1-li0 {
+	width: 100%;
+	float: left;
+	margin-left: -29%;
+	font-size: 30px;
+	overflow: hidden;
+}
+
+video {}
+select {
+	font-size: 25px;
+	margin-left: -60%;
+	margin-top: 1%;
+	text-align: center;
+}
+.ul1-li1 {
+	overflow: hidden;
+	padding: 0.5%;
+	font-size: 25px;
+}
+#imgs1 {
+	display: block;
+	width: 100%;
+	background-color: ghostwhite;
+	margin-bottom: 20%;
+}
+#imgs1 li { margin-left: 3.5%; }
+
+#imgs1 legend {
+	font-size: 25px;
+	color: black;
+	text-shadow: 0.5px 1.2px 0.9px cyan;
+}
+#imgs1 li {
+	overflow: hidden;
+	float: left;
+}
+#imgs1 img { padding: 2%; }
+.autopic1:hover, .autopic2:hover, .autopic3:hover, .autopic4:hover { border: solid 1px red; }
+#fset {
+	margin-top: 20%; margin-left: 2%;
+}
+#fset div label{
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+#fset .stark { float: left; font-size: 20px; }
+#fset div label b { 
+	font-family: 'Bungee Shade', cursive; text-decoration: underline; 
+	text-shadow: 1px 1.5px 1px yellow;
+}
+
+#fset div label b { font-family: 'Bungee Shade', cursive; }
+#fset p {
+	text-align: left;
+	font-size: 15px;
+	margin-left: 10%; margin-right: 0%;
+}
+.stream { font-size: 20px; }
+#cdivBase {
+	margin: 0%;
+	padding: 0%;
+	display: flex;
+}
+#cdivBase .cdiv {
+	border: solid 1px;
+	padding: 1%; 
+    margin-right: 0.5%;
+    margin-left: 1%;
+}
+#cdivBase .cdiv p{
+	margin-left: -5%;
+}
+#cdivBase .cdiv1 {
+	border: solid 1px;
+	padding: 1%;
+	margin-right: 0.5%;
+}
+#cdivBase .cdiv2 {
+	border: solid 1px;
+	padding: 1%;
+	margin-right: 0.5%; 
+}
+
+#daten {
+	background-color: lightgray;
+	padding: 0.1%; padding-left: 5%;
+	width: 100%; height: 22px;
+	font-size: 16px; float: left;
+}
+#data label { float: left; margin-left: 5%; padding-bottom: 2%; }
+#daten ul { margin-right: 20%; }
+#daten li {
+	float: right; padding: 2%;
+	margin-top: -5%;
+}
+
+
+#daten {
+	background-color: lightgray;
+	padding: 0.1%;
+	width: 100%;
+	font-size: 16px;
+}
+#data label { float: left; margin-left: 5%; }
+#daten ul { margin-right: 20%; }
+#daten li {
+	float: right; padding: 2%;
+	margin-top: -4%;
+	overflow: hidden;
+}
+
+#center-info {
+
+	margin-bottom: 1%; margin-top: -1.8%;
+	width: 100%; height: 20px;
+	margin-bottom: 1%; margin-top: -1.5%;
+	width: 100%;
+	background-color: black;
+}
+
+.powered {
+	font-size: 16px;
+	margin-left: 22%; margin-right: -30%;
+	color: white;
+}
+.powered a { padding-top: -1%; color: red;  font-family: 'Playfair Display', serif; }
+
+/*
+	font-size: 16.5px;
+	position: absolute;
+	margin-left: 5%;
+	color: white;
+}
+*/
+.powered a { color: red; }
