@@ -51,10 +51,11 @@ body {
 
 
 #imgs {
-
 	margin-left: 1.5%;
 	margin-left: 1%;
 }
+#imgs img { display: none; }
+
 .dv-ul0 {
 	float: center;
 }
@@ -77,7 +78,6 @@ body {
 	overflow: hidden;
 }
 
-video {}
 select {
 	font-size: 25px;
 	margin-left: -60%;
@@ -155,6 +155,15 @@ select {
 	margin-right: 0.5%; 
 }
 
+#logistique {
+	width: 100%; background-color: #FFFFF0;
+	padding: 2%;
+}
+#logi_info p {
+	text-align: left;
+	padding-left: 20%; padding-right: 20%;
+}
+#logi2 { text-align: left; padding-left: 20%; padding-right: 20%; }
 
 #daten {
 	background-color: lightgray;
@@ -170,9 +179,7 @@ select {
 	overflow: hidden;
 }
 
-
-
-
+#kontakt li { overflow: hidden; float: left; padding-left: 2.5%; }
 #center-info {
 
 	margin-bottom: 0.5%; margin-top: -2%;
@@ -190,6 +197,7 @@ select {
 
 
 #import-exp { width: 100%; height: 740px; margin-bottom: -2%; background-color: lightgrey; }
+#import-exp .imp1, .imp2 { filter: drop-shadow(1px 3px 1px rgba(0,0,0,1.9)); }
 #import-exp li {
 	float: left;
 	padding: 1%;
